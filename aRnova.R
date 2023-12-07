@@ -39,15 +39,15 @@ createLinearModel <- function(spPeak, mainDF){
   qqline(res)
   plot(density(res))
 }
+##################################################
+#          MAIN SCRIPT BELOW                     #
+##################################################
 
 #read data
 spdf <- readData("D:/R scripts/_PPMF-Univariate","/IR Data.csv")
 
 #convert character-formatted numbers to numeric format
 spdf[,2:ncol(spdf)] <- lapply(spdf[,2:ncol(spdf)],as.numeric)
-
-# #remove any NAs
-# spdf <- na.omit(spdf)
 
 #reload because i have no idea why the dataframe is malfunctioning
 write.csv(spdf,"D:/R scripts/_PPMF-Univariate/IR Data2.csv")
@@ -69,6 +69,7 @@ for(i in colnames(spdf)){
   if(i == "Group"){
     next
   }
+  
   else{
     spdf.aov <- aov(lm(as.formula(paste(i, " ~ Group", sep="")), data = spdf))
     spdf.kwt <- kruskal.test(as.formula(paste(i, " ~ Group", sep="")), data = spdf)
