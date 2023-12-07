@@ -40,11 +40,11 @@ createLinearModel <- function(spPeak, mainDF){
   plot(density(res))
 }
 ##################################################
-#          MAIN SCRIPT BELOW                     #
+#             MAIN SCRIPT BELOW                  #
 ##################################################
 
 #read data
-spdf <- readData("D:/R scripts/_PPMF-Univariate","/IR Data.csv")
+spdf <- readData("D:/R scripts/_PPMF-Univariate/R","/IR Data.csv")
 
 #convert character-formatted numbers to numeric format
 spdf[,2:ncol(spdf)] <- lapply(spdf[,2:ncol(spdf)],as.numeric)
