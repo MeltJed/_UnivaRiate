@@ -1,0 +1,27 @@
+{
+    "id": "CA1D2E58",
+    "path": "D:/R scripts/_PPMF-Univariate/aRnova.R",
+    "project_path": "aRnova.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1701823243673.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "86,1",
+        "scrollLine": "65"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1701932555,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1701932555354,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,28 @@
+{
+    "id": "805DC089",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1701834488569.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "id": "888b3d42f55f42bd920e53a0e47fc95e",
+        "name": "spdf.aov",
+        "title": "spdf.aov",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2203051563544,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1701834488569,
+    "read_only": false,
+    "read_only_alternatives": []
+}
