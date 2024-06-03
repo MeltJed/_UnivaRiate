@@ -1,2 +1,2 @@
-# _PPMF-Univariate
+# Univariate
  Univariate scripts
